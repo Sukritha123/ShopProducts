@@ -16,6 +16,7 @@ Additional Features :
 	5. Retries has been added. To automatically rerun failed test due to environment. 
 	6. Tags in feature files are implemented. Commands to run tests based on tags is detailed in Execution instruction section. 
  	7. Assertions have been used to test the behaviour and data values.
+  	8. No test data is hardcoaded. All the test data is parameterization or stored in fixture file. 
 	
 
 Execution Instruction:
