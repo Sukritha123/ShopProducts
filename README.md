@@ -8,16 +8,18 @@ This project is to develop a web automation test framework to test a shopping we
  
 
 Additional Features :
+
 	1. Generated reports on Cypress dashboard
 	2. Test data values are stored in json file in fixture folder
 	3. Cucumber test data parameterization is implemented in feature file
 	4. Page object model(POM) concept is implemented
 	5. Retries has been added. To automatically rerun failed test due to environment. 
 	6. Tags in feature files are implemented. Commands to run tests based on tags is detailed in Execution instruction section. 
-  7. Assertions have been used to test the behaviour and data values.
+ 	7. Assertions have been used to test the behaviour and data values.
 	
 
 Execution Instruction:
+
 	1. Copy the Git Hub URL.
 	URL - https://github.com/Sukritha123/ShopProducts.git
 	
@@ -49,6 +51,7 @@ Execution Instruction:
 		npx cypress-tags run -e TAGS=\"@final" 
 		
 Recommendations: 
+
 		1. I would recommend to use Electron Browser and Headless mode for faster test execution. But other Browsers can be used if the need arises. Especially during development/ debugging in headed mode. 
 		
 
