@@ -9,14 +9,16 @@ This project is to develop a web automation test framework to test a shopping we
 
 Additional Features :
 
-	1. Generated reports on Cypress dashboard
-	2. Test data values are stored in json file in fixture folder
-	3. Cucumber test data parameterization is implemented in feature file
-	4. Page object model(POM) concept is implemented
-	5. Retries has been added. To automatically rerun failed test due to environment. 
-	6. Tags in feature files are implemented. Commands to run tests based on tags is detailed in Execution instruction section. 
- 	7. Assertions have been used to test the behaviour and data values.
-  	8. No test data is hardcoaded. All the test data is parameterization or stored in fixture file. 
+	1. Generated Mochawesome report
+	2. Generated reports on Cypress dashboard
+	3. Test data values are stored in json file in fixture folder
+	4. Cucumber test data parameterization is implemented in feature file
+	5. Page object model(POM) concept is implemented
+	6. Retries has been added. To automatically rerun failed test due to environment. 
+	7. Tags in feature files are implemented. Commands to run tests based on tags is detailed in Execution instruction section. 
+	8. Assertions have been used to test the behaviour and data values.
+ 	9. No test data is hardcoaded. All the test data is parameterization or stored in fixture file.
+
 	
 
 Execution Instruction:
@@ -50,6 +52,7 @@ Execution Instruction:
 		
 		e. To run only the scenario with tag= @final in headless mode and default electron browser
 		npx cypress-tags run -e TAGS=\"@final" 
+  
 		
 Recommendations: 
 
