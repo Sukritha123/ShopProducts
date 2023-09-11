@@ -59,3 +59,9 @@ Recommendations:
 		1. I would recommend to use Electron Browser and Headless mode for faster test execution. But other Browsers can be used if the need arises. Especially during development/ debugging in headed mode. 
 		
 
+Screenshots of execution reports: 
+
+![Mochaawesome Report screenshot](https://github.com/Sukritha123/ShopProducts/assets/144372708/f7406244-cc44-4eda-99ed-3c5cb8ba5256)
+![Cypress Dashboard Screenshot](https://github.com/Sukritha123/ShopProducts/assets/144372708/fad09309-0485-4114-bcd5-56d01fd956a4)
+![Test Runner execution screenshot](https://github.com/Sukritha123/ShopProducts/assets/144372708/91c0d8f7-05cf-4ab7-8275-00e204f48073)
+![Terminal execution screenshot](https://github.com/Sukritha123/ShopProducts/assets/144372708/16682151-b8ca-4bee-9f93-960430d861ce)
